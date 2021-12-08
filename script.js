@@ -25,11 +25,14 @@ let character = {
 // Make other objects and variables below this
 
 
-
-
 // Keep track of collision variables here
 var characterPaddle1Hit = false
 var characterPaddle2Hit = false
+var characterStar1Hit = false
+
+// characters
+
+
 
 
 function preload() {
@@ -49,11 +52,10 @@ function setup() {
 function draw() {
 	background(25,40,70);
 	
-
-
-
+	
 
 
 
 	
 }
+
