@@ -41,9 +41,9 @@ image(alien, character.x, character.y, character.width, character.height)
 
 10. Declare a `score` variable. Update the score everytime the alien collects a star. Print this score to the screen using the `text` command.
 
-![](assets/Challenge10.gif)
-
 11. If the alien falls off the screen, print a GAME OVER message to the user. **HINT**: Use a conditional with the `background` command.
+
+![](assets/Challenge11.gif)
 
 12. **BONUS**: Change the background and the speed at which the star and player fall as they reach new scores. For example, if they reach a score of 10, change the background to a light blue and have the alien and stars increase their speed to one more than it currently is. This will make the game harder as the 
 
