@@ -5,7 +5,7 @@ In preperation for your final game project for this course, we are going to buil
 # Tasks
 This is meant to be a guided walk through of how to go through the game design process. You can add your own features, but you should have the core functionality described in the introduction in order to earn full credit.
 
-1. There is an image of an alien that will be our character today. Load the image in using `loadImage` insie the `function preload()`. Render the image using the `image` command inside `function draw()` and the coordinates stored in the character object like:
+1. There is an image of an alien that will be our character today. Load the image in using `loadImage` inside the `function preload()`. Render the image using the `image` command inside `function draw()` and the coordinates stored in the character object like:
 
 ```javascript
 image(alien, character.x, character.y, character.width, character.height)
@@ -25,7 +25,7 @@ image(alien, character.x, character.y, character.width, character.height)
 
 ![](assets/Challenge5.gif)
 
-6. Declare a new `star` object that gives the star an x, y, width, height, and speedY. Load the image of the star in and print the star to the scren, just like you did with the alien
+6. Declare a new `star` object that gives the star an x, y, width, height, and speedY. Load the image of the star in and print the star to the screen, just like you did with the alien
 
 7. Have the star fall down the screen and reappear at the top at a new random location if it reaches the bottom. You can add multiple, but we are goin to start with one.
 
@@ -39,7 +39,7 @@ image(alien, character.x, character.y, character.width, character.height)
 
 ![](assets/Challenge9.gif)
 
-10. Declare a `score` variable. Update the score everytime the alien collects a star. Print this score to the screen using the `text` command.
+10. Declare a `score` variable. Update the score every time the alien collects a star. Print this score to the screen using the `text` command.
 
 11. If the alien falls off the screen, print a GAME OVER message to the user. **HINT**: Use a conditional with the `background` command.
 
@@ -47,7 +47,7 @@ image(alien, character.x, character.y, character.width, character.height)
 
 12. **BONUS**: Change the background and the speed at which the star and player fall as they reach new scores. For example, if they reach a score of 10, change the background to a light blue and have the alien and stars increase their speed to one more than it currently is. This will make the game harder as the 
 
-13. **STRETCH**: The falling of the alien dosesn't seem very realistic. We need some gravity! To put gravity in the program, the alien needs to accelerate as it falls. Acceleration means increasing the velocity, which looks something like:
+13. **STRETCH**: The falling of the alien doesn't seem very realistic. We need some gravity! To put gravity in the program, the alien needs to accelerate as it falls. Acceleration means increasing the velocity, which looks something like:
 
 ```javascript
 function draw() {
@@ -56,4 +56,3 @@ function draw() {
 ```
 
 Have the alien accelerate as it falls to create a more difficult game.
-
